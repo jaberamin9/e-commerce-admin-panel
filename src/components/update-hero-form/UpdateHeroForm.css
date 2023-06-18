@@ -1,0 +1,98 @@
+.form-main {
+    padding: 25px;
+    background: #fff;
+    width: 400px;
+    border-radius: 7px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    position: fixed;
+}
+
+.form-main h2 {
+    font-size: 27px;
+    text-align: center;
+    margin: 0px 0 30px;
+}
+
+.form-main .form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form-main label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.form-main input,
+.form-main select {
+    height: 20px;
+    padding: 10px;
+    width: 380px;
+    font-size: 15px;
+    outline: none;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #bfbfbf;
+}
+
+.form-main input:focus,
+.form-main select:focus {
+    border-color: #9a9a9a;
+}
+
+.form-main input.error,
+.form-main select.error {
+    border-color: #f91919;
+    background: #f9f0f1;
+}
+
+.form-main small {
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+    color: #f91919;
+}
+
+
+.submit-btn {
+    margin-top: 30px;
+}
+
+.submit-btn input {
+    width: 100%;
+    color: white;
+    border: none;
+    height: auto;
+    font-size: 16px;
+    padding: 13px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    background: #1BB295;
+    transition: 0.2s ease;
+}
+
+.submit-btn input:hover {
+    background: #179b81;
+}
+
+.button-f {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 2px solid #e5e7eb;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.button-f:hover {
+    color: black;
+    background-color: #e9e9e9;
+    cursor: pointer;
+}

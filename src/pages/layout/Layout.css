@@ -1,0 +1,56 @@
+.nav-bar {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    height: 89vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 250px 2fr;
+}
+
+.left-con {
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.right-con {
+    padding: 20px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-top: 1px solid #e5e7eb;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0px;
+    border-radius: 0px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #009879;
+    cursor: pointer;
+}
+
+.a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.a:hover {
+    color: white;
+}
